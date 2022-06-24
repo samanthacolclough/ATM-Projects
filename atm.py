@@ -18,7 +18,7 @@ End = ("Thank you, Goodbye.")
 correct_pin= Pin == 1234
 balance = 100
 
-if Pin != "1234":
+if not Pin :
   print ("ERROR: incorrect pin")
   attempts =3
   int(input("Sorry, incorrect pin. You have {} remaining attempts. Please enter the correct pin: ".format(attempts)))
